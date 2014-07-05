@@ -1,0 +1,98 @@
+SHAPEFILES
+====================
+https://github.com/m-hoerz/berlin-shapes - berlin's 12 bezirke
+https://www.statistik-berlin-brandenburg.de/produkte/opendata/geometrienOD.asp?Kat=6301 - Berlin's LOR at all three levels
+
+
+ADDRESSES OF DOCTORS, YOGA, SHOPPING ETC ETC
+=============================
+http://www.berlin.de/adressen/ - SCRAPE???
+
+
+
+CRIME
+====================
+http://www.berlin.de/polizei/verschiedenes/polizeiliche-kriminalstatistik/ - this is at bezirksregione (mittel) level
+http://www.berlin.de/polizei/_assets/verschiedenes/pks/kriminalitatsatlas_berlin_2013.pdf
+http://www.economicworldmap.net/berlincrime.html# - https://www.facebook.com/tobias.burri
+
+
+
+PDF EDITING
+===================
+http://tabula.nerdpower.org/
+
+
+GREEN SPACES
+===================
+http://www.stadtentwicklung.berlin.de/umwelt/berlin_move/de/hauptwege/download.shtml - 20 grüne hauptwege - "wegekoordinaten.zip"
+http://daten.berlin.de/datensaetze/14-radrouten-und-radverkehrsanlagen-gps-tracks-f%C3%BCr-die-radrouten-durch-berlin - not yet downloaded
+http://www.berlin.de/badegewaesser/baden-details/index.php/?q&badname=--%20Alles%20--&bezirk=--%20Alles%20--&profil=--%20Alles%20--&q_geo&q_radius=20000&ipp=20&order=&page=2#results - Badestelle with water quality
+
+
+LIST OF LOTS OF DATA SETS
+=======================
+http://de-city.census.okfn.org/place/berlin
+ - public amenities
+ - public transport
+ - crimes like graffiti and vandalism
+ - public spending
+ - air quality*
+ - contracts
+ - food safety
+ - building permits
+ - services requests
+ - traffic accidents*
+ - business permits/registrations
+ 
+ 
+AROUND THE NET
+=========================
+http://www.xhain.net/
+twitter
+
+CULTURE
+======================
+http://daten.berlin.de/datensaetze/liste-der-stolpersteine-berlin - List of "stumbling stones"
+http://daten.berlin.de/datensaetze/berliner-und-brandenburger-volks-und-stra%C3%9Fenfeste-2013 - street parties
+http://daten.berlin.de/datensaetze/berliner-wochen-und-tr%C3%B6delm%C3%A4rkte-2013 - flea markets
+http://daten.berlin.de/datensaetze/berliner-weihnachtsm%C3%A4rkte-2013 - christmas markets
+
+AMENITIES
+========================
+http://wiki.openstreetmap.org/wiki/Points_of_interest - POI overview
+http://wiki.openstreetmap.org/wiki/Map_Features - list of OSM POI key/value pairs
+https://github.com/MorbZ/OsmPoisPbf/blob/master/poi_types.csv - same as above
+https://github.com/MorbZ/OsmPoisPbf - extract poi from osm data
+http://overpass-turbo.eu/ - OSM POI API explorer
+http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL  - OSM POI API
+
+WALN hotspots - http://daten.berlin.de/datensaetze/wlan-standorte-berlin
+http://www.kita-berlin.de/529-0-uebersicht-aller-kindergaerten.html - kita, needs to be scraped
+http://www.berlin.de/sen/bwf/meine_fragen/wo_finde_ich/schule_kita/anwendung/default.aspx - kita and schools, search, could be scraped?
+
+TRAFFIC
+====================
+http://www.berlin.de/polizei/_assets/aufgaben/anlagen-verkehrssicherheit/fussgaenger2013.pdf - traffic accidents with pedestrians 2013 - street location or alt bezirk :(
+http://www.berlin.de/polizei/aufgaben/verkehrssicherheit/verkehrsunfallstatistik/ - all traffic accidents 2013
+
+HEALTH
+=========================
+http://www.gsi-berlin.info/gsi_suchen.asp?seite=2&CBFest=Kategorie,Bereich,Thema,Unterthema&kategorie=Gesundheitsdaten&bereich=Gesundheitsrelevante+Verhaltensweisen&thema=Ern%E4hrung&unterthema=K%F6rpergewicht - Körpergewicht
+http://www.gsi-berlin.info/gsi_suchen.asp?seite=2&CBFest=Kategorie,Bereich,Thema,Unterthema&kategorie=Gesundheitsdaten&bereich=Umweltbezogener+Gesundheitsschutz+und+Verbraucherschutz+im+Gesundheitswesen&thema=Lebens-+und+Arbeitsbedingungen&unterthema=Gesundheitsrisiken+durch+Schadstoffe+in+der+Luft - air quality
+http://www.gsi-berlin.info/gsi_suchen.asp?seite=2&CBFest=Kategorie,Bereich,Thema,Unterthema&kategorie=Gesundheitsdaten&bereich=Gesundheitsrelevante+Verhaltensweisen&thema=Ern%E4hrung&unterthema=K%F6rpergewicht - More on body weight, also by bezirk
+
+http://www.aerzte-berlin.de/_php/therapie30/fach.php3 - doctors in berlin, probably needs scraping
+http://www.berlin.de/special/gesundheit-und-beauty/adressen/allgemeinmediziner/ - same deal
+
+
+Sozialsturktur 2013 (bezirksregionen)
+============================
+TAB 18: Population density
+TAB V 03: untimely deaths
+
+GPS
+=================
+All Open Street Maps GPS points, ever: http://wiki.openstreetmap.org/wiki/Planet.gpx
+General info: http://wiki.openstreetmap.org/wiki/Accuracy_of_GPS_data
+https://openpaths.cc/ - request open gps data for a good cause
